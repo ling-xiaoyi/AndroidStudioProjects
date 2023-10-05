@@ -34,7 +34,7 @@ public class NotificationsFragment extends Fragment {
         mWebView.getSettings().setJavaScriptEnabled(true);
 
         // 加载网页
-        mWebView.loadUrl("https://git.hilyy.top/lingxiaoyi/index0.html");
+        mWebView.loadUrl("https://git.hilyy.top/APP/IM/index.html");
 
         return root;
     }
