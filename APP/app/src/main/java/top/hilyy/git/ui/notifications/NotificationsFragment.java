@@ -20,7 +20,7 @@ public class NotificationsFragment extends Fragment {
     private WebView mWebView;
     private ProgressBar mProgressBar;
 
-    private static final String URL = "https://git.hilyy.top/APP/IM/index.html";
+    private static final String URL = "https://git.hilyy.top";
     private static final String JAVASCRIPT_ENABLED = "javascript_enabled";
 
     @NonNull
