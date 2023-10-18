@@ -1,5 +1,6 @@
 package top.hilyy.git.ui.notifications;
 
+import android.annotation.SuppressLint;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -21,7 +22,7 @@ public class NotificationsFragment extends Fragment {
     private ProgressBar mProgressBar;
 
     private static final String URL = "https://git.hilyy.top";
-    private static final String JAVASCRIPT_ENABLED = "javascript_enabled";
+
 
     @NonNull
     @Override
@@ -39,6 +40,7 @@ public class NotificationsFragment extends Fragment {
         mProgressBar = root.findViewById(R.id.progress_bar);
     }
 
+    @SuppressLint("SetJavaScriptEnabled")
     private void setupWebView() {
         if (mWebView == null || mProgressBar == null) {
             return;
