@@ -36,6 +36,7 @@ public class NotificationsFragment extends Fragment {
     }
 
     private void initViews(View root) {
+
         mWebView = root.findViewById(R.id.wv_webview);
         mProgressBar = root.findViewById(R.id.progress_bar);
     }
